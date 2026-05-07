@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-
+вапавпвп
 class DeliveryStrategy(ABC):
     @abstractmethod
     def calculate_cost(self, weight: float, distance: float) -> float:
